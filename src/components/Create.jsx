@@ -12,6 +12,7 @@ function Create(props) {
     description:''
   })
   const navigate = useNavigate() // used for redirect path inside logics
+  
   const readValue=(e)=>{
     const {name,value}=e.target;
     setProduct({ ...product, [name]:value})
